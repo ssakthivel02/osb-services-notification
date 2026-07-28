@@ -1,0 +1,12 @@
+{
+  "immutablePublishedVersions": true,
+  "requiredApprovals": 2,
+  "requiredFields": ["templateId", "version", "locale", "channel", "purpose", "owner"],
+  "forbiddenContent": ["credentials", "fullPaymentCard", "authenticationSecrets", "sensitiveChildData"],
+  "linkAllowlistRequired": true,
+  "unsubscribeRequiredForMarketing": true,
+  "accessibilityReviewRequired": true,
+  "localisationReviewRequired": true,
+  "previewAndTestSendRequired": true,
+  "rollbackSupported": true
+}
